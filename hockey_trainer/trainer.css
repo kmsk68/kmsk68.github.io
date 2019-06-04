@@ -1,0 +1,114 @@
+#mainContent p {
+	font-family: Helvetica, "Trebuchet MS", Garamond;
+	font-size: 12px;
+	color: #4F10AD;
+}
+#mainContent h1 {
+	font-family: Helvetica, "Trebuchet MS", Garamond;
+	font-size: 24px;
+	color: #4F10AD;
+	line-height: 18px;
+}
+#mainContent h2 {
+	font-family: Helvetica, "Trebuchet MS", Garamond;
+	color: #4F10AD;
+	font-size: 18px;
+}
+#mainContent h3 {
+	font-family: Helvetica, "Trebuchet MS", Garamond;
+	font-size: 16px;
+	color: #4f10ad;
+}
+body  {
+	padding: 0;
+	text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #b087ed;
+}
+.twoColFixLtHdr #container {
+	width: 1024px;  /* using 20px less than a full 800px width allows for browser chrome and avoids a horizontal scroll bar */
+	background: #FFFFFF;
+	margin: 0 auto; /* the auto margins (in conjunction with a width) center the page */
+	border: 1px solid #333;
+	text-align: left; /* this overrides the text-align: center on the body element. */
+} 
+.twoColFixLtHdr #header {
+	background-color: #071C71;
+	height: 130px;
+	padding-top: 0;
+	padding-right: 10px;
+	padding-bottom: 0;
+	padding-left: 0px;
+	text-align: left;
+} 
+.twoColFixLtHdr #header h1 {
+	margin: 0; /* zeroing the margin of the last element in the #header div will avoid margin collapse - an unexplainable space between divs. If the div has a border around it, this is not necessary as that also avoids the margin collapse */
+	padding: 10px 0;
+	font-size: 40px;
+	font-family: "Jazz LET Plain:1.0";
+	color: #5ccdc9;
+}
+.twoColFixLtHdr #sidebar1 {
+	float: left; /* since this element is floated, a width must be given */
+	width: 140px;
+	padding-top: 15px;
+	padding-right: 10px;
+	padding-bottom: 15px;
+	padding-left: 10px;
+	background-color: #4965d6;
+	background-image: none;
+}
+.twoColFixLtHdr #mainContent {
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 0;
+	margin-left: 180px;
+	padding-top: 0;
+	padding-right: 20px;
+	padding-bottom: 0;
+	padding-left: 20px;
+	color: 4F10AD;
+} 
+.twoColFixLtHdr #footer {
+	padding: 0 10px 0 20px;
+	background-color: #5ccdc9;
+} 
+.twoColFixLtHdr #footer p {
+	margin: 0; /* zeroing the margins of the first element in the footer will avoid the possibility of margin collapse - a space between divs */
+	padding: 10px 0; /* padding on this element will create space, just as the the margin would have, without the margin collapse issue */
+	font-family: Helvetica, "Trebuchet MS", Garamond;
+	font-size: 10px;
+	color: #000;
+	text-align: right;
+}
+.fltrt { /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+	float: right;
+	margin-left: 8px;
+}
+.fltlft { /* this class can be used to float an element left in your page */
+	float: left;
+	margin-right: 8px;
+}
+.clearfloat { /* this class should be placed on a div or break element and should be the final element before the close of a container that should fully contain a float */
+	clear:both;
+    height:0;
+    font-size: 1px;
+    line-height: 0px;
+}
+a:link {
+	color: #300571;
+}
+a:visited {
+	color: #1533AD;
+}
+a:hover {
+	color: #6F83D6;
+}
+a:active {
+	color: #300571;
+}

@@ -1,0 +1,305 @@
+body {
+	background-color: #d4e8d4;
+	height: auto;
+}
+#container {
+	width: 1024px;
+	height: auto;
+	margin: auto;
+	text-align: right;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-left-color: #999;
+	background-color: #FFF;
+}
+#month_container {
+	width: 1024px;
+	height: 850px;
+	margin: auto;
+	text-align: right;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-left-color: #999;
+	background-color: #FFF;
+}
+#foster_container {
+	width: 1024px;
+	height: 1130px;
+	margin: auto;
+	text-align: right;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-left-color: #999;
+	background-color: #FFF;
+}
+#adopt_container {
+	width: 1024px;
+	height: 1230px;
+	margin: auto;
+	text-align: right;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-left-color: #999;
+	background-color: #FFF;
+}
+#donate_container {
+	width: 1024px;
+	height: 950px;
+	margin: auto;
+	text-align: right;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-left-color: #999;
+	background-color: #FFF;
+}
+#gallery_container {
+	width: 1024px;
+	height: 950px;
+	margin: auto;
+	text-align: right;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-top-color: #999;
+	border-right-color: #999;
+	border-left-color: #999;
+	background-color: #FFF;
+}
+#header {
+	font-family: Geneva;
+	font-size: 14px;
+	color: #000033;
+	text-decoration: none;
+	height: 132px;
+	width: 1024px;
+	background-image: url(../_images/gooddog/header_gooddog_v2.jpg);
+	float: right;
+}
+#side_nav {
+	background-image: url(file:///_images/gooddog/sidebar_gooddog.gif);
+	width: 250px;
+	height: 750px;
+	text-align: center;
+}
+#main_nav {
+	float: right;
+	height: 45px;
+	width: 770px;
+	background-color: #FFF;
+	margin-right: 5px;
+	right: 20px;
+}
+#content {
+	text-align: left;
+	width: 500px;
+	float: right;
+	margin-top: 65px;
+	padding-left: 115px;
+	padding-right: 150px;
+	background-color: #dadab5;
+	border: 1px solid #996699;
+	height: inherit;
+	right: 40px;
+	padding-bottom: 50px;
+	padding-top: 30px;
+	font-family: Geneva;
+	text-decoration: none;
+	color: #000033;
+}
+#foster_content {
+	text-align: left;
+	width: 500px;
+	float: right;
+	margin-top: 65px;
+	padding-left: 115px;
+	padding-right: 150px;
+	background-color: #dadab5;
+	border: 1px solid #996699;
+	height: 800px;
+	right: 40px;
+	padding-bottom: 50px;
+	padding-top: 30px;
+	font-family: Geneva;
+	text-decoration: none;
+	color: #000033;
+}
+#adopt_content {
+	text-align: left;
+	width: 500px;
+	float: right;
+	margin-top: 65px;
+	padding-left: 115px;
+	padding-right: 150px;
+	background-color: #dadab5;
+	border: 1px solid #996699;
+	height: 900px;
+	right: 40px;
+	padding-bottom: 50px;
+	padding-top: 30px;
+	font-family: Geneva;
+	text-decoration: none;
+	color: #000033;
+}
+#month_content {
+	text-align: left;
+	width: 575px;
+	float: right;
+	margin-top: 65px;
+	padding-left: 115px;
+	padding-right: 75px;
+	background-color: #dadab5;
+	border: 1px solid #996699;
+	height: 520px;
+	right: 40px;
+	padding-bottom: 50px;
+	padding-top: 30px;
+	font-family: Geneva;
+	text-decoration: none;
+	color: #000033;
+}
+#gallery_content {
+	text-align: left;
+	width: 575px;
+	float: right;
+	margin-top: 65px;
+	padding-left: 115px;
+	padding-right: 75px;
+	background-color: #dadab5;
+	border: 1px solid #996699;
+	height: 600px;
+	right: 40px;
+	padding-bottom: 50px;
+	padding-top: 30px;
+	font-family: Geneva;
+	text-decoration: none;
+	color: #000033;
+}
+#donate_content {
+	text-align: left;
+	width: 500px;
+	float: right;
+	margin-top: 65px;
+	padding-left: 115px;
+	padding-right: 150px;
+	background-color: #dadab5;
+	border: 1px solid #996699;
+	height: 620px;
+	right: 40px;
+	padding-bottom: 50px;
+	padding-top: 30px;
+	font-family: Geneva;
+	text-decoration: none;
+	color: #000033;
+}
+#header_home_link {
+	float: left;
+	height: 130px;
+	width: 520px;
+}
+#footer {
+	background-color: #fff;
+	height: 70px;
+	width: 1024px;
+	margin: auto;
+	background-image: url(../_images/gooddog/footer_gooddog.jpg);
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #999;
+	border-bottom-color: #999;
+	border-left-color: #999;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+#spacer {
+	float: right;
+	width: 40px;
+	height: 300px;
+}
+p {
+	font-family: Geneva;
+	font-size: 12px;
+	font-style: normal;
+	color: #000033;
+	text-decoration: none;
+}
+h1 {
+	font-family: Geneva;
+	font-size: 28px;
+	font-style: normal;
+	color: #000033;
+	text-decoration: none;
+}
+h3 {
+	font-family: Geneva;
+	font-size: 18px;
+	color: #000033;
+	text-decoration: none;
+}
+ul {
+	font-family: Geneva;
+	font-size: 12px;
+	color: #000033;
+	text-decoration: none;
+}
+.underlined {
+	text-decoration: underline;
+}
+a:link {
+	color: #969;
+	text-decoration: none;
+}
+a:visited {
+	color: #969;
+	text-decoration: none;
+}
+a:hover {
+	color: #060;
+	text-decoration: underline;
+}
+a:active {
+	color: #969;
+	text-decoration: none;
+}
+.clickimg {
+	cursor:pointer
+}
+#img {
+	bottom: 90px;
+}
