@@ -54,10 +54,12 @@ main {
 	height: 150px;
 		}
 #nav1 {
-	width: 400px;
+	width: 250px;
 	float: left;
+	padding-left: 150px;
 		}
 #nav2 {
-	width: 400px;
+	width: 250px;
 	float:right;
+	padding-left: 150px;
 		}
