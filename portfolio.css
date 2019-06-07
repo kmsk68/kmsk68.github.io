@@ -1,0 +1,63 @@
+
+container {
+	color: #2E3192;
+	background-color: #FFF;
+	height: 500px;
+	width: 800px;
+	text-align: left;
+	font-family: Garamond, Georgia;
+	font-size: 14px;
+}
+body {
+	width: 80%;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	background: #A1E4F1 ;
+}
+header {
+	background-color:#427D96;
+	height: 75px;
+	width: 800px;
+	text-align: center;
+	color: aliceblue;
+	padding-top: 5px;
+}
+Footer {
+	background-color: #427D96;
+	height: 25px;
+	width: 785px;
+	color: antiquewhite;
+	font-family: Garamond, Georgia;
+	text-align: right;
+	padding-right: 15px;
+	padding-top: 5px;
+}
+footer a:link {
+	color:antiquewhite;
+}
+footer a:hover {
+	color:#A1E4F1;
+}
+footer a:visited {
+	color: mediumpurple;
+}
+
+a:link {
+	color: #2E3192;
+}
+a:visited {
+	color: #669;
+}
+main {
+	width: 800px;
+	height: 150px;
+		}
+#nav1 {
+	width: 400px;
+	float: left;
+		}
+#nav2 {
+	width: 400px;
+	float:right;
+		}
