@@ -30,18 +30,18 @@ Password
     </label>
   </form>
   <a href="../register.html" target="_blank">Register</a>&nbsp;</div>
-  <div id="main_nav"><a href="../gooddog_rescue/adopt.html"><img src="../_images/gooddog/adopt.jpg" alt="Adopt" width="120" height="45" hspace="4" /></a><a href="../gooddog_rescue/volunteer.html"><img src="../_images/gooddog/volunteer.jpg" alt="Volunteer" width="120" height="45" hspace="4" /></a><a href="../gooddog_rescue/foster.html"><img src="../_images/gooddog/foster.jpg" alt="Foster" width="120" height="45" hspace="4" /></a><a href="../gooddog_rescue/events.html"><img src="../_images/gooddog/events.jpg" alt="Events" width="120" height="45" hspace="4" /></a><a href="../gooddog_rescue/donate.html"><img src="../_images/gooddog/donate.jpg" alt="Donate" width="120" height="45" hspace="4" /></a><a href="../gooddog_rescue/contact.html"><img src="../_images/gooddog/contact.jpg" alt="Contact" width="120" height="45" hspace="4" /></a></div>
+  <div id="main_nav"><a href="../gooddog_rescue/adopt.html"><img src="https://user-images.githubusercontent.com/40442987/59320849-d56dae80-8c9d-11e9-83d8-57d65ba6486a.jpg" alt="Adopt" width="120" height="45" hspace="4" /></a><a href="../gooddog_rescue/volunteer.html"><img src="https://user-images.githubusercontent.com/40442987/59320932-36958200-8c9e-11e9-8cb9-9045ed78670a.jpg" alt="Volunteer" width="120" height="45" hspace="4" /></a><a href="../gooddog_rescue/foster.html"><img src="https://user-images.githubusercontent.com/40442987/59320990-62b10300-8c9e-11e9-82ee-b22c69f349b7.jpg" alt="Foster" width="120" height="45" hspace="4" /></a><a href="../gooddog_rescue/events.html"><img src="https://user-images.githubusercontent.com/40442987/59321035-88d6a300-8c9e-11e9-904e-3fa1588641d9.jpg" alt="Events" width="120" height="45" hspace="4" /></a><a href="../gooddog_rescue/donate.html"><img src="https://user-images.githubusercontent.com/40442987/59321104-bde2f580-8c9e-11e9-85e5-9c0767a8f240.jpg" alt="Donate" width="120" height="45" hspace="4" /></a><a href="../gooddog_rescue/contact.html"><img src="https://user-images.githubusercontent.com/40442987/59321148-e539c280-8c9e-11e9-8620-bb362da6f5b9.jpg" alt="Contact" width="120" height="45" hspace="4" /></a></div>
   <div id="content">
     <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Adopt</h1>
   </div>
   <div id="side_nav">
     <p>&nbsp;</p>
-  <p><a href="../gooddog_rescue/month.html"><img src="../_images/gooddog/dogofthemonth.gif" alt="dog of the month" width="182" height="40" hspace="54" /></a></p>
+  <p><a href="../gooddog_rescue/month.html"><img src="https://user-images.githubusercontent.com/40442987/59321216-32b62f80-8c9f-11e9-806c-6f5fd31b84c1.gif" alt="dog of the month" width="182" height="40" hspace="54" /></a></p>
     <p>&nbsp;</p>
     <p>&nbsp;</p>
-  <p><a href="../gooddog_rescue/arrivals.html"><img src="../_images/gooddog/newarrivals.gif" alt="new arrivals" width="127" height="51" hspace="40" vspace="12" border="0" /></a>
+  <p><a href="../gooddog_rescue/arrivals.html"><img src="https://user-images.githubusercontent.com/40442987/59321238-537e8500-8c9f-11e9-9ce6-51e9586cfe5a.gif" alt="new arrivals" width="127" height="51" hspace="40" vspace="12" border="0" /></a>
   <p>&nbsp;</p>
-  <a href="../gooddog_rescue/gallery.html"><img src="../_images/gooddog/doggallery.gif" alt="dog gallery" width="120" height="42" hspace="95" vspace="25" align="left" /></a>
+  <a href="../gooddog_rescue/gallery.html"><img src="https://user-images.githubusercontent.com/40442987/59321292-84f75080-8c9f-11e9-8141-6054a5404711.gif" alt="dog gallery" width="120" height="42" hspace="95" vspace="25" align="left" /></a>
     </p>
   <p>&nbsp;</p>
 </div>
