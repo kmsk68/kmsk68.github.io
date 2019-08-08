@@ -176,7 +176,7 @@ footer {
   display: flex;
   justify-content: space-evenly;
   padding: 1.5rem;
-  background: darkgray;
+  background: lightslategray;
   border-top: 4px solid #1f4faa;
 }
 
