@@ -1,0 +1,244 @@
+
+/* CSS Document */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*Code from Codepen/FreeCodeCamp*/
+html {
+  box-sizing: border-box;
+
+  /* Set font size for easy rem calculations
+   * default document font size = 16px, 1rem = 16px, 100% = 16px
+   * (100% / 16px) * 10 = 62.5%, 1rem = 10px, 62.5% = 10px
+  */
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+/* 1200px / 16px = 75em */
+@media (max-width: 75em) {
+  html {
+    font-size: 60%;
+  }
+}
+
+/* 980px / 16px = 61.25em */
+@media (max-width: 61.25em) {
+  html {
+    font-size: 58%;
+  }
+}
+
+/* 460px / 16px = 28.75em */
+@media (max-width: 28.75em) {
+  html {
+    font-size: 55%;
+  }
+}
+/*End Code from Codepen/FreeCodeCamp*/
+
+
+body {
+	/*Comment out font-family, font-size, font-weight, and line-height if I decide I don't like the look of the font*/
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem; /* 18px */
+	font-weight: 400;
+  line-height: 1.4;
+  background-color: lightgray;
+  background-image: linear-gradient(to right, lightgray 0%, darkgray 100%);
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/*Nav*/
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #460160;
+  box-shadow: 0 2px 0 #b76df0;
+  z-index: 10;
+}
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+}
+
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 .5rem;
+  }
+}
+.nav-list a {
+  display: block;
+  font-size: 1.8rem;
+  padding: 1rem;
+  color: white;
+}
+
+.nav-list a:hover {
+  background: #1f4faa;
+}
+/*Welcome*/
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #c2d4f7;
+  background-image: linear-gradient(62deg, #1f4faa 0%, #c2d4f7 100%);
+}
+.welcome-section h1 {
+font-family: 'Fredericka the Great', cursive;
+/*font-family: 'Kristi', cursive;
+font-family: 'Give You Glory', cursive;
+font-family: 'Megrim', cursive;*/
+  /*font-size: 4.5rem;*/
+  font-size: 10rem;
+  font-weight: normal;
+  color: lightgray;
+}
+
+.welcome-section p {
+  font-size: 2rem;
+  font-style: italic;
+  margin-top: 1rem;
+  color: #4e0387;
+}
+
+/*Projects*/
+.projects-section {
+	/*min-height: 100vh;*/
+  	margin: auto;
+	text-align: center;
+	padding: 7rem 4rem;
+}
+
+#projects h2 {
+  font-size: 3rem;
+  margin: 0 auto 5rem 0;
+  color: #1f4faa;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 7rem;
+  width: 80%;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+.project-tile {
+  background-color: #c2d4f7;
+  /*width: 180px;
+  margin: 10px;*/
+  padding: 1.3rem 1rem 1rem 1rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.project-title {
+  font-size: 1em;
+  padding: 1rem;
+  margin-top: 0.5rem;
+}
+.project-image {
+  width: 90%;
+  border-radius: 0.5rem;
+  object-fit: contain;
+}
+
+.project-tile a {
+  color: #4e0387;
+}
+.project-tile a:hover {
+  color: white;
+}
+
+/*Contact*/
+
+.contact-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  padding: 0 2rem;
+  background: #d8c9dc;
+  background-image: linear-gradient(62deg, #918594/*#9b909e*/ 0%, #ecdaf1 100%);
+}
+
+.contact-section-header > h2 {
+  font-size: 3rem;
+}
+
+@media (max-width: 28.75em) {
+  .contact-section-header > h2 {
+    font-size: 2rem;
+  }
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 980px;
+  flex-wrap: wrap;
+}
+.contact-links a {
+  color: #1f4faa;
+}
+
+.contact-details {
+  font-size: 2.4rem;
+  margin-top: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  transition: transform 0.3s ease-out;
+}
+
+.contact-details:hover {
+  transform: translateY(8px);
+}
+
+/*Footer*/
+
+footer {
+  font-weight: 300;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.5rem;
+  background: lightslategray;
+  border-top: 4px solid #1f4faa;
+}
+
+footer > p {
+  margin: 2rem;
+}
+
+
+@media (max-width: 28.75em) {
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+}
