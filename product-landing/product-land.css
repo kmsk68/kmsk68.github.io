@@ -17,7 +17,7 @@ header {
   justify-content: space-around;
   align-items: flex-start;
   flex-direction: row;
-  border-radius: 25px;
+  border-radius: 0px 0px 25px 25px;
 }
 
   @media (max-width: 600px) {
