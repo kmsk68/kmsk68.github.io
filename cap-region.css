@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+/** {
+  margin: 0;
+  padding: 0;
+} */
+
+body {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", 'Trebuchet MS' /*,'Noto Sans'*/, sans-serif;
+	
+}
+header {
+	background-image: url(CRUWH-grid-line.png);
+	background-repeat: no-repeat;
+	background-size: 100% 225px;
+	margin-bottom: 1rem;
+	
+}
+container {
+	
+}
+.nav-grid {
+	display: grid;
+	grid-template-columns: 20px 1fr 1fr 20px;
+	grid-template-rows: 70% 30%;
+	width: 100%;
+	grid-template-areas: 
+		". pagetitle  logo ."
+		". nav  logo .";
+	
+}
+.main-grid {
+	display: grid;
+	grid-template-columns: 20px 1fr 20px;
+	width: 100%;
+	grid-template-areas:
+		". welcome-photo ."
+		". welcome ."
+		". sub-photo ."
+		". welcome-sub ."
+}
+
+#pagetitle {
+	/*background-color: rebeccapurple;  /*--To Delete-- */
+	grid-area: pagetitle;
+	font-family: 'Playfair Display', serif;
+	margin: 0px;
+	padding-top: 0rem;
+	font-size: 30px;
+	
+}
+
+
+#logo {
+	/*background-color: purple; /*--To Delete--*/
+	grid-area: logo;
+	padding-top: 1.2rem;
+}
+#logo img {
+    max-width: 250px;
+}
+#nav {
+	/*background-color: midnightblue;  /*--To Delete--*/
+	grid-area: nav;
+	font-family: 'Noto Sans', sans-serif;
+	word-spacing: 30px;
+}
+#nav a:link, a:active{
+	text-decoration: none;
+	color: #5d6f70;
+}
+#nav a:visited{
+	text-decoration: none;
+	color: #455456;
+}
+#nav a:hover{
+	color: rgba(94,156,170,.72);	
+}
+
+#flex {
+	background-color: cornflowerblue;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-image: linear-gradient(white, #cedddb);
+	}
+
+#welcome {
+/*	padding: 2rem;
+	max-width: 450px;*/
+	color: #06242b;
+	grid-area: welcome;
+}
+#main img {
+	padding: 3px;
+	border:6px solid #5e9caa;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#welcome-sub {
+/*	padding: 2rem;
+	max-width: 450px;*/
+	grid-area: welcome-sub;
+}
+#welcome-photo{
+	grid-area: welcome-photo;
+}
+#sub-photo{
+	grid-area: sub-photo;
+}
+
+
+#practice {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+	margin-left: 2rem;
+	margin-right: 2rem;
+	background-color: /*#023f49; */ #7d9191;
+	color: /*#cedddb;*/ #06242b;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 24px;
+	color: #06242b;
+}
+#main h2 {
+	color: #055866;
+	font-family: 'Playfair Display', serif;
+}
+
+@media screen and (min-width: 800px) and (max-width: 1024px){
+	/*header {
+	background-image: url(CRUWH-grid-line.png);
+	background-repeat: no-repeat;
+	background-size: 100% 225px;
+}*/
+	
+	body{
+		
+	}
+	#flex {
+		background-color: cornflowerblue;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		background-image: linear-gradient(white, #cedddb);
+	}
+	.nav-grid {
+		grid-template-columns: 60px 1fr 1fr 20px;
+		grid-template-rows: 60% 40%;
+	}
+	.main-grid {
+	display: grid;
+	grid-template-columns: 20px 1fr 1fr 20px;
+	grid-template-rows: 50% 50%;
+	width: 100%;
+	grid-template-areas:
+		". welcome welcome-photo ."
+		". sub-photo welcome-sub ."
+	}
+
+	#main {
+		order: 2;
+	}
+	#practice {
+		order: 1;
+		margin-right: 0rem;
+	}
+}
+
+@media screen and (min-width: 1024px){
+	/*Adjust size of h2 for responsive sizes - smaller on smaller screens*/
+	
+	body{
+		
+	}
+	h1 {
+		font-size: 32px;
+	}
+
+	#flex {
+		background-color: darkslateblue;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		background-image: linear-gradient(white, #cedddb);
+		padding: 2rem;
+	}
+	.nav-grid {
+		grid-template-columns: 150px 1.5fr  1fr 30px;
+		grid-template-rows: 60% 40%;
+		grid-template-areas: 
+			". pagetitle  logo ."
+			". nav  logo .";
+		margin-bottom: 1rem;
+	}
+	#pagetitle {
+		padding-top: 15px;
+	}
+	#nav {
+		padding-top: 10px;
+	}
+	.main-grid {
+	display: grid;
+	grid-template-columns: 20px 1fr 1fr 20px;
+	/*grid-template-rows: 50% 50%;*/
+	/*width: 100%;*/
+	grid-template-areas:
+		". welcome welcome-photo ."
+		". sub-photo welcome-sub ."
+	}
+
+	#main {
+		order: 2;
+
+	}
+	.main-content {
+		margin: 1rem;
+
+	}
+	#practice {
+		order: 1;
+		margin-right: 1rem;
+	}
+}
+
