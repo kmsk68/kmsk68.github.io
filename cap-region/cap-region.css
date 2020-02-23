@@ -78,7 +78,7 @@ container {
 }
 h1 {
 	font-family: 'Playfair Display', serif;
-	font-size: 20px;
+	font-size: 18px;
 	color: #06242b;
 }
 
@@ -128,13 +128,41 @@ h1 {
 	background-color: /*#023f49; */ #7d9191;
 	color: /*#cedddb;*/ #06242b;
 }
+.practice-grid {
+	display: grid;
+	/*grid-template-columns: 20px 1fr 20px;*/
+	/*width: 100%;*/
+	grid-template-areas:
+		"day-time"
+		"map"
+}
+#day-time{
+	grid-area: day-time;
+}
 
-.map{
+#map{
+	grid-area: map;
 	margin-bottom: 1rem;
 }
 
 footer {
 	background-color: #5e9caa;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	margin-top: 7px;
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+}
+#footer a:link, a:active{
+	text-decoration: none;
+	color: #5d6f70;
+}
+#footer a:visited{
+	text-decoration: none;
+	color: #455456;
+}
+#footer a:hover{
+	color: rgba(94,156,170,.72);	
 }
 
 
@@ -148,6 +176,9 @@ footer {
 	body{
 		
 	}
+	h1 {
+		font-size: 28px;
+	}
 	#flex {
 		background-color: cornflowerblue;
 		display: flex;
@@ -156,25 +187,38 @@ footer {
 		background-image: linear-gradient(white, #cedddb);
 	}
 	.nav-grid {
-		grid-template-columns: 60px 1fr 1fr 20px;
+		grid-template-columns: 60px 2fr 1fr 20px;
 		grid-template-rows: 60% 40%;
 	}
+	#nav {
+		padding-left: 30px;
+	}
 	.main-grid {
-	display: grid;
-	grid-template-columns: 20px 1fr 1fr 20px;
-	grid-template-rows: 50% 50%;
-	width: 100%;
-	grid-template-areas:
-		". welcome welcome-photo ."
-		". sub-photo welcome-sub ."
+		display: grid;
+		grid-template-columns: 20px 1fr 1fr 20px;
+		grid-template-rows: 50% 50%;
+		width: 100%;
+		grid-template-areas:
+			". welcome welcome-photo ."
+			". sub-photo welcome-sub ."
 	}
 
 	#main {
-		order: 2;
+		order: 1;
 	}
 	#practice {
-		order: 1;
-		margin-right: 0rem;
+		order: 2;
+		margin-top: 2rem;
+	}
+	.practice-grid {
+		display: grid;
+		grid-template-columns: .7fr 1fr 1fr .7fr;
+		width: 100%;
+		grid-template-areas:
+			". day-time map ."
+	}
+	#map {
+		margin: 1rem;
 	}
 }
 
@@ -215,6 +259,7 @@ footer {
 	}
 	#nav {
 		padding-top: 10px;
+		padding-left: 50px;
 	}
 	.main-grid {
 	display: grid;
