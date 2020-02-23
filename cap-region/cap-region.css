@@ -10,7 +10,7 @@ body {
 	
 }
 header {
-	background-image: url(https://user-images.githubusercontent.com/40442987/75049516-58374200-5498-11ea-9aa5-2329c8ba4e41.png);
+	background-image: url(https://user-images.githubusercontent.com/40442987/75100791-96b82400-55a0-11ea-8950-4919186632c0.png);
 	background-repeat: no-repeat;
 	background-size: 100% 225px;
 	margin-bottom: 1rem;
@@ -76,6 +76,11 @@ container {
 #nav a:hover{
 	color: rgba(94,156,170,.72);	
 }
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-size: 20px;
+	color: #06242b;
+}
 
 #flex {
 	background-color: cornflowerblue;
@@ -85,18 +90,23 @@ container {
 	background-image: linear-gradient(white, #cedddb);
 	}
 
-#welcome {
-/*	padding: 2rem;
-	max-width: 450px;*/
-	color: #06242b;
-	grid-area: welcome;
-}
+
 #main img {
 	padding: 3px;
 	border:6px solid #5e9caa;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+}
+#main h2 {
+	color: #055866;
+	font-family: 'Playfair Display', serif;
+}
+#welcome {
+/*	padding: 2rem;
+	max-width: 450px;*/
+	color: #06242b;
+	grid-area: welcome;
 }
 #welcome-sub {
 /*	padding: 2rem;
@@ -114,21 +124,19 @@ container {
 #practice {
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
-	margin-left: 2rem;
-	margin-right: 2rem;
+	margin: auto;
 	background-color: /*#023f49; */ #7d9191;
 	color: /*#cedddb;*/ #06242b;
 }
 
-h1 {
-	font-family: 'Playfair Display', serif;
-	font-size: 24px;
-	color: #06242b;
+.map{
+	margin-bottom: 1rem;
 }
-#main h2 {
-	color: #055866;
-	font-family: 'Playfair Display', serif;
+
+footer {
+	background-color: #5e9caa;
 }
+
 
 @media screen and (min-width: 800px) and (max-width: 1024px){
 	/*header {
@@ -176,12 +184,18 @@ h1 {
 	body{
 		
 	}
+	header {
+		background-image: url(https://user-images.githubusercontent.com/40442987/75100789-87d17180-55a0-11ea-858b-664d0c95ea65.png);
+		background-repeat: no-repeat;
+		background-size: 100% 225px;
+		margin-bottom: 1rem;
+
+	}
 	h1 {
 		font-size: 32px;
 	}
 
 	#flex {
-		background-color: darkslateblue;
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
@@ -222,7 +236,13 @@ h1 {
 	}
 	#practice {
 		order: 1;
+		padding-left: 1.5rem;
+		padding-right: 1.5rem;
+		margin-left: 2rem;
 		margin-right: 1rem;
+		background-color: /*#023f49; */ #7d9191;
+		color: /*#cedddb;*/ #06242b;
 	}
+
 }
 
