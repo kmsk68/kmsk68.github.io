@@ -73,7 +73,7 @@ container {
 	/*background-color: midnightblue;  /*--To Delete--*/
 	grid-area: nav;
 	font-family: 'Noto Sans', sans-serif;
-	word-spacing: 1rem;
+	word-spacing: .7rem;
 	text-align: center;
 }
 #nav a:link, a:active{
