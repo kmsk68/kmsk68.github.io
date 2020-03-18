@@ -26,7 +26,17 @@ container {
 	width: 100%;
 	grid-template-areas: 
 		". pagetitle  logo ."
+		". .  logo ."
+		". nav nav .";
+	/* Original .nav-grid code
+	display: grid;
+	grid-template-columns: 20px 1fr 1fr 20px;
+	grid-template-rows: 70% 30%;
+	width: 100%;
+	grid-template-areas: 
+		". pagetitle  logo ."
 		". nav  logo .";
+	*/
 	
 }
 .main-grid {
@@ -64,6 +74,7 @@ container {
 	grid-area: nav;
 	font-family: 'Noto Sans', sans-serif;
 	word-spacing: 30px;
+	text-align: center;
 }
 #nav a:link, a:active{
 	text-decoration: none;
@@ -107,17 +118,21 @@ h1 {
 	max-width: 450px;*/
 	color: #06242b;
 	grid-area: welcome;
+	margin-top: 1rem;
 }
 #welcome-sub {
 /*	padding: 2rem;
 	max-width: 450px;*/
 	grid-area: welcome-sub;
+	margin-top: 1rem;
 }
 #welcome-photo{
 	grid-area: welcome-photo;
+	margin-top: 1rem;
 }
 #sub-photo{
 	grid-area: sub-photo;
+	margin-top: 1rem;
 }
 
 
@@ -127,6 +142,7 @@ h1 {
 	margin: auto;
 	background-color: /*#023f49; */ #7d9191;
 	color: /*#cedddb;*/ #06242b;
+	margin-top: 1rem;
 }
 .practice-grid {
 	display: grid;
@@ -187,8 +203,13 @@ footer {
 		background-image: linear-gradient(white, #cedddb);
 	}
 	.nav-grid {
+		display: grid;
 		grid-template-columns: 60px 2fr 1fr 20px;
 		grid-template-rows: 60% 40%;
+		width: 100%;
+		grid-template-areas: 
+			". pagetitle  logo ."
+			". nav  logo .";
 	}
 	#nav {
 		padding-left: 30px;
@@ -247,6 +268,7 @@ footer {
 		padding: 2rem;
 	}
 	.nav-grid {
+		display: grid;
 		grid-template-columns: 150px 1.5fr  1fr 30px;
 		grid-template-rows: 60% 40%;
 		grid-template-areas: 
