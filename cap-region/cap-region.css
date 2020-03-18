@@ -213,6 +213,7 @@ footer {
 	}
 	#nav {
 		padding-left: 30px;
+		text-align: left;
 	}
 	.main-grid {
 		display: grid;
@@ -282,6 +283,7 @@ footer {
 	#nav {
 		padding-top: 10px;
 		padding-left: 50px;
+		text-align: left;
 	}
 	.main-grid {
 	display: grid;
