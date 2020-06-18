@@ -112,6 +112,7 @@ h1 {
 #main h2 {
 	color: #1b4868;
 	font-family: 'Playfair Display', serif;
+	margin-top: 0;
 }
 #welcome {
 /*	padding: 2rem;
@@ -292,13 +293,13 @@ footer {
 		padding-top: 15px;
 	}
 	#nav {
-		padding-top: 10px;
-		padding-left: 7px;
+		padding-top: 20px;
 		text-align: left;
+		font-size: 1.1rem;
 	}
 	.main-grid {
 	display: grid;
-	grid-template-columns: 20px 1fr 1fr 20px;
+	grid-template-columns: 100px 1fr 1fr ;
 	/*grid-template-rows: 50% 50%;*/
 	/*width: 100%;*/
 	grid-template-areas:
@@ -314,12 +315,14 @@ footer {
 		margin: 1rem;
 
 	}
+	#welcome-sub {
+		margin-top: 0;
+	}
 	#practice {
 		order: 2;
 		padding-left: 1.5rem;
 		padding-right: 1.5rem;
-		margin-left: 1rem;
-		margin-right: 2rem;
+		margin-right: .5rem;
 	}
 	#practice p, address{
 		font-size: .9rem;
