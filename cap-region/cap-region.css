@@ -73,7 +73,7 @@ container {
 	/*background-color: midnightblue;  /*--To Delete--*/
 	grid-area: nav;
 	font-family: 'Noto Sans', sans-serif;
-	word-spacing: .7rem;
+	word-spacing: .75rem;
 	text-align: center;
 }
 #nav a:link, a:active{
@@ -90,7 +90,7 @@ container {
 h1 {
 	font-family: 'Playfair Display', serif;
 	font-size: 18px;
-	color: #06242b;
+	color: /*#06242b*/ #1b4868;
 }
 
 #flex {
@@ -110,7 +110,7 @@ h1 {
 	margin-right: auto;
 }
 #main h2 {
-	color: #055866;
+	color: #1b4868;
 	font-family: 'Playfair Display', serif;
 }
 #welcome {
@@ -140,8 +140,8 @@ h1 {
 	padding-left: 1.5rem;
 	padding-right: 1.5rem;
 	margin: auto;
-	background-color: /*#023f49; */ #7d9191;
-	color: /*#cedddb;*/ #06242b;
+	background-color: /*#023f49;  #7d9191; */ #1b4868;
+	color: /*#cedddb; #06242b;*/ #FFFFFF;
 	margin-top: 1rem;
 }
 .practice-grid {
@@ -152,6 +152,12 @@ h1 {
 		"day-time"
 		"map"
 }
+h3 {
+	font-family: 'Playfair Display', serif;
+}
+address {
+	font-style: normal;
+}
 #day-time{
 	grid-area: day-time;
 }
@@ -159,6 +165,8 @@ h1 {
 #map{
 	grid-area: map;
 	margin-bottom: 1rem;
+	height: 300px;
+	width: 300px;
 }
 
 footer {
@@ -193,7 +201,7 @@ footer {
 		
 	}
 	h1 {
-		font-size: 28px;
+		font-size: 2rem;
 	}
 	#flex {
 		background-color: cornflowerblue;
@@ -258,7 +266,10 @@ footer {
 
 	}
 	h1 {
-		font-size: 32px;
+		font-size: 2.5rem;
+	}
+	h2 {
+		font-size: 2rem;
 	}
 
 	#flex {
@@ -266,7 +277,7 @@ footer {
 		flex-direction: row;
 		flex-wrap: nowrap;
 		background-image: linear-gradient(white, #cedddb);
-		padding: 2rem;
+		padding: 0 2rem 2rem 2rem;
 	}
 	.nav-grid {
 		display: grid;
@@ -282,7 +293,7 @@ footer {
 	}
 	#nav {
 		padding-top: 10px;
-		padding-left: 50px;
+		padding-left: 7px;
 		text-align: left;
 	}
 	.main-grid {
@@ -296,7 +307,7 @@ footer {
 	}
 
 	#main {
-		order: 2;
+		order: 1;
 
 	}
 	.main-content {
@@ -304,13 +315,31 @@ footer {
 
 	}
 	#practice {
-		order: 1;
+		order: 2;
 		padding-left: 1.5rem;
 		padding-right: 1.5rem;
-		margin-left: 2rem;
-		margin-right: 1rem;
-		background-color: /*#023f49; */ #7d9191;
-		color: /*#cedddb;*/ #06242b;
+		margin-left: 1rem;
+		margin-right: 2rem;
+	}
+	#practice p, address{
+		font-size: .9rem;
+	}
+	h3 {
+		font-size: 1.3rem;
+	}
+
+	.practice-grid {
+		display: grid;
+		/*grid-template-columns: 20px 1fr 20px;*/
+		/*width: 100%;*/
+		grid-template-areas:
+			"day-time"
+			"map"
+	}
+	#map {
+		height: 250px;
+		width: 250px;
+		margin-bottom: 2rem;
 	}
 
 }
