@@ -135,6 +135,18 @@ h1 {
 	grid-area: sub-photo;
 	margin-top: 1rem;
 }
+#main a:link, a:active{
+	/*text-decoration: none;*/
+	color: #068FAD;
+}
+#main a:visited{
+	text-decoration: none;
+	color: #0E7CCA;
+}
+#main a:hover{
+	text-decoration: none;
+	color:/*rgba(94,156,170,.72)*/#ffffff;	
+}
 
 
 #practice {
