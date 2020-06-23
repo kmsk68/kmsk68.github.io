@@ -26,17 +26,7 @@ container {
 	width: 100%;
 	grid-template-areas: 
 		". pagetitle  logo ."
-		". .  logo ."
-		". nav nav .";
-	/* Original .nav-grid code
-	display: grid;
-	grid-template-columns: 20px 1fr 1fr 20px;
-	grid-template-rows: 70% 30%;
-	width: 100%;
-	grid-template-areas: 
-		". pagetitle  logo ."
 		". nav  logo .";
-	*/
 	
 }
 .main-grid {
@@ -74,7 +64,6 @@ container {
 	grid-area: nav;
 	font-family: 'Noto Sans', sans-serif;
 	word-spacing: .75rem;
-	text-align: center;
 }
 #nav a:link, a:active{
 	text-decoration: none;
@@ -201,6 +190,33 @@ footer {
 #footer a:hover{
 	color: rgba(94,156,170,.72);	
 }
+	
+	
+@media screen and (max-width: 800px) {
+	.topnav a:not(:first-child) {display: none;}
+	.topnav a.icon {
+		float: left;
+		display: inline;
+		margin-right: 1rem;
+	}
+	#nav {
+		padding-top: 1.5rem;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.topnav.responsive {position: relative;}
+	.topnav.responsive .icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+}
 
 
 @media screen and (min-width: 800px) and (max-width: 1024px){
@@ -235,6 +251,13 @@ footer {
 	#nav {
 		padding-left: 30px;
 		text-align: left;
+	}
+	.topnav {
+	  overflow: hidden;
+	}
+
+	.topnav .icon {
+	  display: none;
 	}
 	.main-grid {
 		display: grid;
@@ -308,6 +331,13 @@ footer {
 		padding-top: 20px;
 		text-align: left;
 		font-size: 1.1rem;
+	}
+	.topnav {
+	  overflow: hidden;
+	}
+
+	.topnav .icon {
+	  display: none;
 	}
 	.main-grid {
 	display: grid;
