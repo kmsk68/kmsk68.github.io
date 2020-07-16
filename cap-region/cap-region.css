@@ -260,6 +260,7 @@ footer {
 			". nav  logo .";
 	}
 	#nav {
+		padding-left: 0px;
 		text-align: left;
 	}
 	#nav-ul {
@@ -281,7 +282,7 @@ footer {
 	}
 	.main-grid {
 		display: grid;
-		grid-template-columns: 20px 1fr 1fr 20px;
+		grid-template-columns: 60px 1fr 1fr 20px;
 		grid-template-rows: 50% 50%;
 		width: 100%;
 		grid-template-areas:
