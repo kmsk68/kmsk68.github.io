@@ -16,7 +16,16 @@
 
 			<div id="pagetitle"><h1>Capital Region Underwater Hockey</h1></div>
 
-			<nav id="nav" class="topnav"><a href="url">Home</a> <a href="/url">Basics</a> <a href="url">Tournament</a> <a href="url">Media</a> <a href="url">Join</a> <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a></nav>
+			<nav id="nav">
+				<button class="hamburger" id="hamburger"><em class="fas fa-bars"></em></button>
+				<ul class="nav-ul" id="nav-ul">
+					<li><a href="url">Home</a> </li>
+					<li><a href="/url">Basics</a></li> 
+					<li><a href="url">Tournament</a> </li>
+					<li><a href="url">Media</a> </li>
+					<li><a href="url">Join</a> </li>
+				</ul>
+			</nav>	
 			<div id="logo"><img src="https://user-images.githubusercontent.com/40442987/75049236-dba46380-5497-11ea-9537-0176adfee150.png" alt="CRUWH Logo" width="100%"/></div>
 		</div> <!--End grid-->
 
@@ -62,6 +71,14 @@
 		<p>Capital Region Underwater Hockey &copy; <a href="mailto:capitalregionuwh@gmail.com">Contact Us</a></p>
 	</footer>
 </div> <!--End Container-->
-<script type="text/javascript" src="cap-region.js"></script>
+<script>
+	const hamburger = document.getElementById('hamburger');
+	const navUL = document.getElementById('nav-ul');
+
+	hamburger.addEventListener('click', () => {
+		navUL.classList.toggle('show');
+	});
+	
+</script>
 </body>
 </html>
