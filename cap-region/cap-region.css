@@ -41,7 +41,7 @@ container {
 }
 
 #pagetitle {
-	/*background-color: rebeccapurple;  /*--To Delete-- */
+	/* background-color: rebeccapurple;  /*--To Delete-- */
 	grid-area: pagetitle;
 	font-family: 'Playfair Display', serif;
 	margin: 0px;
@@ -60,11 +60,12 @@ container {
     max-width: 250px;
 }
 #nav {
-	/*background-color: midnightblue;  /*--To Delete--*/
+	/* background-color: midnightblue;  /*--To Delete--*/
 	grid-area: nav;
 	font-family: 'Noto Sans', sans-serif;
 	word-spacing: .75rem;
 	list-style-type: none;
+	position: relative;
 }
 #nav a:link, a:active{
 	text-decoration: none;
@@ -88,6 +89,9 @@ h1 {
 		color: #1b4868;
 		cursor: pointer;
 		font-size: 40px;
+		position: absolute;
+		left: 0;
+		top: 0;
 	}
 	.hamburger:focus {
 		outline: none;
@@ -219,14 +223,14 @@ footer {
 }
 #footer a:link, a:active{
 	text-decoration: none;
-	color: #5d6f70;
+	color: #ffffff;
 }
 #footer a:visited{
 	text-decoration: none;
-	color: #455456;
+	color: #5d6f70;
 }
 #footer a:hover{
-	color: rgba(94,156,170,.72);	
+	color: #1b4868;	
 }
 
 
