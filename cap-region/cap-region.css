@@ -54,7 +54,8 @@ container {
 #logo {
 	/*background-color: purple; /*--To Delete--*/
 	grid-area: logo;
-	padding-top: 1.2rem;
+  padding-top: 1.2rem;
+  min-height: 197px;
 }
 #logo img {
     max-width: 250px;
@@ -423,3 +424,19 @@ footer {
 
 }
 
+/* title resizing section */
+@media screen and (min-width: 1024px) {
+  #pagetitle {
+    min-width: 629px;
+  }
+}
+@media screen and (min-width: 800px) and (max-width: 1024px) {
+  #pagetitle {
+    min-width: 503px;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 800px) {
+  #pagetitle {
+    min-width: 283px;
+  }
+}
