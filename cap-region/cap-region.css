@@ -67,6 +67,22 @@ container {
 	list-style-type: none;
 	position: relative;
 }
+@media screen and (min-width: 200px) and (max-width: 800px) {
+  .nav-item {
+    width: 200px;
+    background-color: white;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid black;
+  }
+  .nav-item + .nav-item {
+    border-top: none;
+  }
+  .nav-item a {
+    display: inline-block;
+    width: 100%;
+  }
+}
 #nav a:link, a:active{
 	text-decoration: none;
 	color: #5d6f70;
@@ -89,9 +105,9 @@ h1 {
 		color: #1b4868;
 		cursor: pointer;
 		font-size: 40px;
-		position: absolute;
-		left: 0;
-		top: 0;
+    position: fixed;
+    left: 20px;
+    top: 125px;
 	}
 	.hamburger:focus {
 		outline: none;
