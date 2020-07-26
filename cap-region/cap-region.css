@@ -430,12 +430,12 @@ footer {
     min-width: 629px;
   }
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 800px) and (max-width: 1024px) {
   #pagetitle {
     min-width: 503px;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 200px) and (max-width: 800px) {
   #pagetitle {
     min-width: 283px;
   }
