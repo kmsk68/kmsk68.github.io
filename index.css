@@ -60,7 +60,7 @@ body {
   grid-template-areas:
     "welcome welcome about"
 }
-@media (max-width: 28.75em) {
+@media (max-width: 61.25em) {
   .container {
       grid-template-columns: 1fr;
   /*grid-template-rows: 100px 200px 100px;*/
@@ -154,6 +154,7 @@ font-family: 'Megrim', cursive;*/
   text-align: center;
   width: 100%;
   height: 20vh;
+  margin-top:40px;
   grid-area:contact;
 }
 
@@ -182,7 +183,7 @@ font-family: 'Megrim', cursive;*/
 
 /*About*/
 #about-aside {
-  background: gray;
+  background: #1f4faa;
   grid-area: about;
 }
 
