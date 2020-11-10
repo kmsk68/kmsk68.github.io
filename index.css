@@ -183,7 +183,8 @@ font-family: 'Megrim', cursive;*/
 
 /*About*/
 .about-aside {
-  background: #1f4faa;
+  background: white;
+  color: #4e0387;
   grid-area: about;
 }
 
